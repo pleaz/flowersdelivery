@@ -1,4 +1,4 @@
-name: Laravel
+name: FlowersDelivery
 
 on: [push]
 
