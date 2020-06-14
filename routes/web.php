@@ -14,3 +14,5 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/blog', 'BlogController@index');
+Route::get('/articles/{slug}', 'BlogController@findPostBySlug')->name('blog.post');
